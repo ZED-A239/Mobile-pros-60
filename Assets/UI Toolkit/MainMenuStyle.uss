@@ -1,0 +1,28 @@
+:root {
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    font-size: 75px;
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/ARCADE_I.TTF?fileID=12800000&guid=f80555f53d7f15540b08c8c3094cb187&type=3#ARCADE_I");
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    align-self: center;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/ARCADE_I.TTF?fileID=12800000&guid=f80555f53d7f15540b08c8c3094cb187&type=3#ARCADE_I");
+    height: 5.5%;
+    width: 45%;
+    font-size: 350%;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-align: middle-center;
+}
