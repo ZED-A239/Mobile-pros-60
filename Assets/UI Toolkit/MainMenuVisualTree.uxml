@@ -1,16 +1,16 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=0da8a43fbd3efc944aef092ff643c4ac&amp;type=3#MainMenuStyle"/>
-    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(0, 0, 0);">
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; background-color: rgb(0, 0, 0); display: flex;">
         <ui:Label text="asterobreaker" class="header" style="margin-top: 75px; margin-right: 75px; margin-bottom: 75px; margin-left: 75px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
         <ui:Label text="tap to start" class="button" style="border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); top: 50%;"/>
-        <ui:Button text="" name="Options" class="button" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/Option%20icon.png?fileID=2800000&amp;guid=81492ff7a32c40a49a47cc046d819bc4&amp;type=3#Option icon&quot;); width: 12.5%; aspect-ratio: 1; height: auto; align-self: flex-end; top: 75%;"/>
+        <ui:Button text="" name="OptionsButton" enabled="true" class="button" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/Option%20icon.png?fileID=2800000&amp;guid=81492ff7a32c40a49a47cc046d819bc4&amp;type=3#Option icon&quot;); width: 12.5%; aspect-ratio: 1; height: auto; align-self: flex-end; top: 75%; visibility: visible; overflow: visible; display: flex; opacity: 1; -unity-background-image-tint-color: rgb(255, 255, 255);"/>
     </ui:VisualElement>
-    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(0, 0, 0); display: none;">
+    <ui:VisualElement name="OptionsMenu" style="flex-grow: 1; background-color: rgb(0, 0, 0); display: none;">
         <ui:Label text="options" class="header" style="margin-top: 75px; margin-right: 75px; margin-bottom: 75px; margin-left: 75px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
-        <ui:Label text="&#10;music" class="button" style="border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); align-self: flex-start; top: 5%;"/>
-        <ui:Button name="Button" class="button" style="align-self: flex-end; width: 12.5%; aspect-ratio: 1; height: auto; top: 0%; right: 10%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Music%20icon.png?fileID=2800000&amp;guid=e7691bdb6a4019a4eb631fda46ad6f75&amp;type=3#Music icon&quot;);"/>
+        <ui:Label text="&#10;music" class="button" style="border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); align-self: flex-start; top: 5%; display: flex;"/>
+        <ui:Button name="MusicButton" class="button" style="align-self: flex-end; width: 12.5%; aspect-ratio: 1; height: auto; top: 0%; right: 10%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Music%20icon.png?fileID=2800000&amp;guid=e7691bdb6a4019a4eb631fda46ad6f75&amp;type=3#Music icon&quot;); display: flex; visibility: visible;"/>
         <ui:Label text="&#10;sound" class="button" style="border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); align-self: flex-start; top: 5%;"/>
-        <ui:Button class="button" style="align-self: flex-end; width: 12.5%; aspect-ratio: 1; height: auto; top: 0%; right: 10%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Sound%20effect%20icon.png?fileID=2800000&amp;guid=d54349d48e3f27442b6343ef51dace0e&amp;type=3#Sound effect icon&quot;);"/>
-        <ui:Button name="Options" text="Back" class="button" style="width: 25%; height: 5.5%; align-self: center; top: 50%;"/>
+        <ui:Button name="SoundButton" class="button" style="align-self: flex-end; width: 12.5%; aspect-ratio: 1; height: auto; top: 0%; right: 10%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Sound%20effect%20icon.png?fileID=2800000&amp;guid=d54349d48e3f27442b6343ef51dace0e&amp;type=3#Sound effect icon&quot;);"/>
+        <ui:Button name="BackButton" text="Back" class="button" style="width: 25%; height: 5.5%; align-self: center; top: 50%;"/>
     </ui:VisualElement>
 </ui:UXML>
